@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.his</groupId>
 	<artifactId>UM_Module</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>UM_Module</name>
 	<description>This api contains all the endpoints for usermanagement</description>
 	<properties>

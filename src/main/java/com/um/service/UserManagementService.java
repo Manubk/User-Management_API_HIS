@@ -37,7 +37,7 @@ public class UserManagementService implements IUserManagementService{
 		
 		UserEntity user = userRepo.findByEmail(credentialDto.getEmail());
 		
-		if(user.getPass().equals(credentialDto.getPass()))
+		if(user != null && user.getPass().equals(credentialDto.getPass()))
 			return true;
 		
 		return false;
